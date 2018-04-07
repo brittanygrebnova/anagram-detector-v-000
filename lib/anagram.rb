@@ -10,7 +10,7 @@ class Anagram
     array. do |anagram|
       possible_matches = anagram.split("")
         x= possible_matches.sort
-        y = word.split.sort
+        y = word.split("").sort
         if x == y
           x
       end
