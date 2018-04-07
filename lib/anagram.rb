@@ -10,8 +10,8 @@ class Anagram
     array.select do |anagram|
       possible_match = anagram.split("")
         y = word.split("").sort
-        if x == y
-          x
+        if possible_match.sort == y
+          possible_match
     end
   end
   
