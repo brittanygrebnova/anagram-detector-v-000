@@ -13,7 +13,6 @@ class Anagram
         y = word.split("").sort
         if x == y
           x
-      end
     end
   end
   
