@@ -12,6 +12,7 @@ class Anagram
         y = word.split("").sort
         if possible_match.sort == y
           possible_match
+      end
     end
   end
   
